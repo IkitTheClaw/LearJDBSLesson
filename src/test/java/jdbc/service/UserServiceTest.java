@@ -1,5 +1,7 @@
 package jdbc.service;
 
+import jdbc.dao.UserDao;
+import jdbc.dao.UserDaoJDBCImpl;
 import jdbc.model.User;
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +9,8 @@ import org.junit.Test;
 import java.util.List;
 
 public class UserServiceTest {
-    private final UserService userService = new UserServiceImpl();
+    private final UserDao userDaoJdbcImpl = new UserDaoJDBCImpl();
+    private final UserService userService = new UserServiceImpl(userDaoJdbcImpl);
 
     private final String testName = "Ivan";
     private final String testLastName = "Ivanov";

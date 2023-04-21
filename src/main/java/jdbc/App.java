@@ -1,6 +1,8 @@
 package jdbc;
 
 import jdbc.dao.UserDaoJDBCImpl;
+import jdbc.service.UserService;
+import jdbc.service.UserServiceImpl;
 
 import java.sql.SQLException;
 
@@ -13,9 +15,10 @@ public class App
     public static void main(String[] args) throws SQLException,
             ClassNotFoundException {
         UserDaoJDBCImpl userConnect = new UserDaoJDBCImpl();
-        userConnect.saveUser("Антоша", "Мантоша", (byte) 75);
-        userConnect.dropUsersTable();
-        userConnect.dropUsersTable();
-        userConnect.createUsersTable();
+        UserService userService = new UserServiceImpl(userConnect);
+        userService.saveUser("Антоша", "Мантоша", (byte) 75);
+        userService.dropUsersTable();
+        userService.dropUsersTable();
+        userService.createUsersTable();
     }
 }
