@@ -7,10 +7,10 @@ import java.sql.SQLException;
 public class Util {
     private static String DB_HOST  = "localhost";
     private static String DB_USERNAME = "root";
-    private static String DB_PASSWORD = "00000000";
-    private static String DB_NAME = "Users";
+    private static String DB_PASSWORD = "You_Shel1_NotPass";
+    private static String DB_NAME = "myDb";
     private static String DB_PORT = ":3306/";
-    private static String URL = "jdbc:postgresql://"    //jdbc:postgresql://<host>:<port>/<database_name>?<connection_parameters>
+    private static String URL = "jdbc:mysql://"    //jdbc:postgresql://<host>:<port>/<database_name>?<connection_parameters>
             + DB_HOST
             + DB_PORT
             + DB_NAME;
@@ -27,7 +27,7 @@ public class Util {
                                            String username,
                                            String password)
             throws SQLException, ClassNotFoundException {
-        Class.forName("org.postgresql.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection =  DriverManager.getConnection(connectionURL,
                 username, password);
         return connection;
@@ -40,7 +40,7 @@ public class Util {
      * @throws SQLException если не удалось установить соединение с базой данных
      */
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
-        Class.forName("org.postgresql.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         return getConnection(URL, DB_USERNAME, DB_PASSWORD);
     }
 }

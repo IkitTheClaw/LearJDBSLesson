@@ -5,7 +5,7 @@ public class User {
 
     private String name;
 
-    private String lastName;
+    private String lastname;
 
     private Byte age;
 
@@ -15,7 +15,7 @@ public class User {
 
     public User(String name, String lastName, Byte age) {
         this.name = name;
-        this.lastName = lastName;
+        this.lastname = lastName;
         this.age = age;
     }
 
@@ -35,12 +35,12 @@ public class User {
         this.name = name;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public Byte getAge() {
@@ -56,7 +56,7 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
+                ", lastName='" + lastname + '\'' +
                 ", age=" + age +
                 '}';
     }

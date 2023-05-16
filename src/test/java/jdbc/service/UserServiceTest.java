@@ -6,6 +6,7 @@ import jdbc.model.User;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class UserServiceTest {
@@ -15,6 +16,9 @@ public class UserServiceTest {
     private final String testName = "Ivan";
     private final String testLastName = "Ivanov";
     private final byte testAge = 5;
+
+    public UserServiceTest() throws SQLException {
+    }
 
 
     @Test
@@ -47,7 +51,7 @@ public class UserServiceTest {
             User user = userService.getAllUsers().get(0);
 
             if (!testName.equals(user.getName())
-                    || !testLastName.equals(user.getLastName())
+                    || !testLastName.equals(user.getLastname())
                     || testAge != user.getAge()
             ) {
                 Assert.fail("User был некорректно добавлен в базу данных");

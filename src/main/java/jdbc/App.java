@@ -16,9 +16,15 @@ public class App
             ClassNotFoundException {
         UserDaoJDBCImpl userConnect = new UserDaoJDBCImpl();
         UserService userService = new UserServiceImpl(userConnect);
-        userService.saveUser("Антоша", "Мантоша", (byte) 75);
-        userService.dropUsersTable();
         userService.dropUsersTable();
         userService.createUsersTable();
+        userService.createUsersTable();
+        userService.saveUser("vova","ivanov", (byte) 99);
+        userService.saveUser("vova","ivanov", (byte) 99);
+        userService.saveUser("vova","ivanov", (byte) 99);
+        userService.removeUserById(1);
+        userService.removeUserById(0);
+        System.out.println(userService.getAllUsers());
+        userService.cleanUsersTable();
     }
 }
