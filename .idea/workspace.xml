@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b4ebe2-c827-4ea2-bbe2-81e27f005fb6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/service/UserServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1b4ebe2-c827-4ea2-bbe2-81e27f005fb6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +169,7 @@
       <workItem from="1684880766240" duration="6033000" />
       <workItem from="1684968528667" duration="5165000" />
       <workItem from="1684974354283" duration="1904000" />
-      <workItem from="1685050663932" duration="3496000" />
+      <workItem from="1685050663932" duration="3797000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate &amp; SQL task 1">
       <created>1684273795644</created>
