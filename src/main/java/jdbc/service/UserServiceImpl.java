@@ -1,7 +1,7 @@
 package jdbc.service;
 
 import jdbc.dao.UserDao;
-import jdbc.model.User;
+import jdbc.entity.User;
 
 import java.sql.SQLException;
 import java.util.List;

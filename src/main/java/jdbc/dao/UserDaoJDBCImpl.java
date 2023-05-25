@@ -1,6 +1,6 @@
 package jdbc.dao;
 
-import jdbc.model.User;
+import jdbc.entity.User;
 import jdbc.util.Util;
 
 import java.sql.*;

@@ -1,6 +1,6 @@
 package jdbc.dao;
 
-import jdbc.model.User;
+import jdbc.entity.User;
 
 import java.sql.SQLException;
 import java.util.List;

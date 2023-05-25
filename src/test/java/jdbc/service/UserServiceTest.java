@@ -2,7 +2,7 @@ package jdbc.service;
 
 import jdbc.dao.UserDao;
 import jdbc.dao.UserDaoJDBCImpl;
-import jdbc.model.User;
+import jdbc.entity.User;
 import org.junit.Assert;
 import org.junit.Test;
 
