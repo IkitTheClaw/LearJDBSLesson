@@ -1,9 +1,11 @@
 package jdbc.entity;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class User {
+    @Id
     private Long id;
 
     private String name;
@@ -16,11 +18,6 @@ public class User {
 
     }
 
-    public User(String name, String lastName, Byte age) {
-        this.name = name;
-        this.lastname = lastName;
-        this.age = age;
-    }
 
     public Long getId() {
         return id;
@@ -63,4 +60,6 @@ public class User {
                 ", age=" + age +
                 '}';
     }
+
+
 }
