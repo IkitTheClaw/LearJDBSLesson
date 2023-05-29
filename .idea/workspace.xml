@@ -4,16 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b4ebe2-c827-4ea2-bbe2-81e27f005fb6" name="Changes" comment="hibernate &amp; SQL task 1">
+    <list default="true" id="b1b4ebe2-c827-4ea2-bbe2-81e27f005fb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d76fbec-91c6-4a3b-9e12-65d2fefce7f7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d76fbec-91c6-4a3b-9e12-65d2fefce7f7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8d88675-817d-4250-93a3-e1fb10809237.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f8d88675-817d-4250-93a3-e1fb10809237.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8d88675-817d-4250-93a3-e1fb10809237.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8d88675-817d-4250-93a3-e1fb10809237/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8d88675-817d-4250-93a3-e1fb10809237/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8d88675-817d-4250-93a3-e1fb10809237/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8d88675-817d-4250-93a3-e1fb10809237/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/util/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/util/HibernateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,6 +100,7 @@
       <recent name="C:\Users\ktljv\IdeaProjects\LearnJDBCLesson3\src\main\java\jdbc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Idea\Myproject\LearnJDBCLesson1\src\main\resources\META-INF" />
       <recent name="E:\Idea\Myproject\LearnJDBCLesson1\src\main\resources" />
     </key>
   </component>
@@ -187,7 +197,11 @@
       <workItem from="1684968528667" duration="5165000" />
       <workItem from="1684974354283" duration="1904000" />
       <workItem from="1685050663932" duration="3797000" />
-      <workItem from="1685107578193" duration="1243000" />
+      <workItem from="1685107578193" duration="6092000" />
+      <workItem from="1685204525287" duration="6250000" />
+      <workItem from="1685225925515" duration="631000" />
+      <workItem from="1685310985287" duration="4011000" />
+      <workItem from="1685387330812" duration="7324000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate &amp; SQL task 1">
       <created>1684273795644</created>
@@ -196,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684273795644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hibernate &amp; SQL task 1">
+      <created>1685109068140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685109068140</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
